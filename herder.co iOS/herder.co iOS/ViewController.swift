@@ -12,7 +12,15 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Setup web view
+        let webView:UIWebView = UIWebView(frame: CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height))
+        self.view.addSubview(webView)
+        
+        // Go to page
+        let urlString:NSString = "http://www.herder.co/";
+        let url:NSURL = NSURL.URLWithString(urlString)
+        let request:NSURLRequest = NSURLRequest(URL: url)
+        webView.loadRequest(request)
     }
 
     override func didReceiveMemoryWarning() {
