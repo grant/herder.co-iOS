@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "038CD61819BBFD59004608D0"
-               BuildableName = "herder.co iOS.app"
+               BuildableName = "herder.app"
                BlueprintName = "herder.co iOS"
                ReferencedContainer = "container:herder.co iOS.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "038CD61819BBFD59004608D0"
-            BuildableName = "herder.co iOS.app"
+            BuildableName = "herder.app"
             BlueprintName = "herder.co iOS"
             ReferencedContainer = "container:herder.co iOS.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "038CD61819BBFD59004608D0"
-            BuildableName = "herder.co iOS.app"
+            BuildableName = "herder.app"
             BlueprintName = "herder.co iOS"
             ReferencedContainer = "container:herder.co iOS.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "038CD61819BBFD59004608D0"
-            BuildableName = "herder.co iOS.app"
+            BuildableName = "herder.app"
             BlueprintName = "herder.co iOS"
             ReferencedContainer = "container:herder.co iOS.xcodeproj">
          </BuildableReference>
