@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038CD61919BBFD59004608D0 /* herder.co iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "herder.co iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		038CD61919BBFD59004608D0 /* herder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038CD61D19BBFD5A004608D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		038CD61E19BBFD5A004608D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		038CD62019BBFD5A004608D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		038CD61A19BBFD59004608D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				038CD61919BBFD59004608D0 /* herder.co iOS.app */,
+				038CD61919BBFD59004608D0 /* herder.app */,
 				038CD62B19BBFD5A004608D0 /* herder.co iOSTests.xctest */,
 			);
 			name = Products;
@@ -126,7 +126,7 @@
 			);
 			name = "herder.co iOS";
 			productName = "herder.co iOS";
-			productReference = 038CD61919BBFD59004608D0 /* herder.co iOS.app */;
+			productReference = 038CD61919BBFD59004608D0 /* herder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		038CD62A19BBFD5A004608D0 /* herder.co iOSTests */ = {
@@ -328,7 +328,7 @@
 				INFOPLIST_FILE = "herder.co iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = herder;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -341,7 +341,7 @@
 				INFOPLIST_FILE = "herder.co iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = herder;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
